@@ -1,14 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AutofacExample
 {
-    public class MessageService
+    public class MessageService : IMessageService
     {
-
         public MessageService()
         {
             SetupMessages();

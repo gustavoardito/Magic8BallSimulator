@@ -43,6 +43,9 @@
   <ItemGroup>
     <Compile Include="ConsoleInputService.cs" />
     <Compile Include="ConsoleOutputService .cs" />
+    <Compile Include="IInputService.cs" />
+    <Compile Include="IMessageService.cs" />
+    <Compile Include="IOutputService.cs" />
     <Compile Include="Magic8BallSimulator.cs" />
     <Compile Include="MessageService .cs" />
     <Compile Include="Program.cs" />

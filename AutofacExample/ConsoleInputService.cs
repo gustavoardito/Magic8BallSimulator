@@ -2,7 +2,7 @@
 
 namespace AutofacExample
 {
-    public class ConsoleInputService
+    public class ConsoleInputService : IInputService
     {
         private string input = "input-initializer";
 

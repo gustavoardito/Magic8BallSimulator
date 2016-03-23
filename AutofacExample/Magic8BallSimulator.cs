@@ -1,22 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace AutofacExample
+﻿namespace AutofacExample
 {
-    /// <summary>
-    /// </summary>
     public class Magic8BallSimulator
     {
-        // these 3 classes are "dependencies" of this class, in that this class cannot
-        // do its job without their services.
-        private MessageService _messageService;
-        private ConsoleInputService _inputService;
-        private ConsoleOutputService _outputService;
+        // our "dependencies" are now interfaces
+        private IMessageService _messageService;
+        private IInputService _inputService;
+        private IOutputService _outputService;
 
-        // here our dependencies are "injected" into this class, that's depedency injection, 
-        // really that's it!
-        public Magic8BallSimulator(MessageService messageService, ConsoleInputService inputService,
-         ConsoleOutputService outputService)
+        // we're now injecting Interfaces, this loosens our coupling to our "injected" dependencies
+        public Magic8BallSimulator(IMessageService messageService, IInputService inputService,
+         IOutputService outputService)
         {
             _messageService = messageService;
             _inputService = inputService;
