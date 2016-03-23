@@ -46,9 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArgumentsParser.cs" />
+    <Compile Include="Config.cs" />
     <Compile Include="ConsoleInputService.cs" />
     <Compile Include="ConsoleOutputService .cs" />
     <Compile Include="ContainerSetup.cs" />
+    <Compile Include="FileOutputService.cs" />
     <Compile Include="IInputService.cs" />
     <Compile Include="IMessageService.cs" />
     <Compile Include="IOutputService.cs" />
@@ -57,7 +60,8 @@
     <Compile Include="MultipleOutputService.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="PopupOutputService.cs" />
+    <Compile Include="SimulationRunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
