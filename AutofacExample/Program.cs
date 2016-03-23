@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Autofac;
 
 namespace AutofacExample
 {
-    public class Program
+    public class SimulationRunner
     {
         public static void Main(string[] args)
         {
-            var exapleAutofac = new Magic8BallSimulator();
-            exapleAutofac.Run();
+            ContainerSetup containerSetup = new ContainerSetup();
+            IContainer container = containerSetup.BuildContainer();
+            container.Resolve<Magic8BallSimulator>().Run();
         }
     }
 }
