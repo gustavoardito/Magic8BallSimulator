@@ -41,17 +41,17 @@ namespace AutofacExample
 
         public void PrintExit()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
         public void PrintInputPrompt()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
         public void PrintWelcome()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
     }
 }
