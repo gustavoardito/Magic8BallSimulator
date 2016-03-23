@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AutofacExample
+namespace AutofacExample.Services
 {
     public class MessageService : IMessageService
     {

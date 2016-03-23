@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace AutofacExample
+namespace AutofacExample.Services
 {
     public class FileOutputService : IOutputService
     {

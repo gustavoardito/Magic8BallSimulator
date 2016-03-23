@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 
+using AutofacExample.Services;
+
 namespace AutofacExample
 {
     public class Magic8BallSimulator
@@ -40,22 +42,33 @@ namespace AutofacExample
         private void PrintWelcome()
         {
             foreach (IOutputService outputService in _outputServices)
+            {
                 outputService.PrintWelcome();
+            }
         }
+
         private void PrintInputPrompt()
         {
             foreach (IOutputService outputService in _outputServices)
+            {
                 outputService.PrintInputPrompt();
+            }
         }
+
         private void PrintMessage(string message)
         {
             foreach (IOutputService outputService in _outputServices)
+            {
                 outputService.PrintMessage(message);
+            }
         }
+
         private void PrintExit()
         {
             foreach (IOutputService outputService in _outputServices)
+            {
                 outputService.PrintExit();
+            }
         }
     }
 }

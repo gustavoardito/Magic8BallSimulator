@@ -46,21 +46,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArgumentsParser.cs" />
-    <Compile Include="Config.cs" />
-    <Compile Include="ConsoleInputService.cs" />
-    <Compile Include="ConsoleOutputService .cs" />
-    <Compile Include="ContainerSetup.cs" />
-    <Compile Include="FileOutputService.cs" />
-    <Compile Include="IInputService.cs" />
-    <Compile Include="IMessageService.cs" />
-    <Compile Include="IOutputService.cs" />
+    <Compile Include="Config\ArgumentsParser.cs" />
+    <Compile Include="Config\Config.cs" />
+    <Compile Include="Services\ConsoleInputService.cs" />
+    <Compile Include="Services\ConsoleOutputService .cs" />
+    <Compile Include="Config\ContainerSetup.cs" />
+    <Compile Include="Services\FileOutputService.cs" />
+    <Compile Include="Services\IInputService.cs" />
+    <Compile Include="Services\IMessageService.cs" />
+    <Compile Include="Services\IOutputService.cs" />
     <Compile Include="Magic8BallSimulator.cs" />
-    <Compile Include="MessageService .cs" />
-    <Compile Include="MultipleOutputService.cs">
+    <Compile Include="Services\MessageService .cs" />
+    <Compile Include="Services\MultipleOutputService.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PopupOutputService.cs" />
+    <Compile Include="Services\PopupOutputService.cs" />
     <Compile Include="SimulationRunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

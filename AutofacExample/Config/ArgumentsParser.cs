@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AutofacExample
+namespace AutofacExample.Config
 {
     public class ArgumentsParser
     {

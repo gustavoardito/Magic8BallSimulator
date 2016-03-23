@@ -1,5 +1,7 @@
 ﻿using Autofac;
 
+using AutofacExample.Config;
+
 namespace AutofacExample
 {
     public class SimulationRunner

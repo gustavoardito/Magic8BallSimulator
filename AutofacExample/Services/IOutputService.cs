@@ -1,5 +1,5 @@
 ﻿
-namespace AutofacExample
+namespace AutofacExample.Services
 {
     public interface IOutputService
     {

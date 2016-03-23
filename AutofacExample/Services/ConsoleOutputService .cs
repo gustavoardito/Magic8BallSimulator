@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AutofacExample
+namespace AutofacExample.Services
 {
     public class ConsoleOutputService : IOutputService
     {

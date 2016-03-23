@@ -1,4 +1,4 @@
-﻿namespace AutofacExample
+﻿namespace AutofacExample.Services
 {
     public class PopupOutputService
     {

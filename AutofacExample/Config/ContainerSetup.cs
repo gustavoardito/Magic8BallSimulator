@@ -1,9 +1,11 @@
-﻿namespace AutofacExample
+﻿using System.IO;
+
+using Autofac;
+
+using AutofacExample.Services;
+
+namespace AutofacExample.Config
 {
-    using System.IO;
-
-    using Autofac;
-
     public class ContainerSetup
     {
         private ContainerBuilder builder;

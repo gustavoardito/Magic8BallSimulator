@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace AutofacExample
+namespace AutofacExample.Config
 {
     public enum OutputModes
     {

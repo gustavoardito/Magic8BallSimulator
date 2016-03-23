@@ -2,7 +2,7 @@
 using System.IO;
 using System.Windows.Forms;
 
-namespace AutofacExample
+namespace AutofacExample.Services
 {
     public class MultipleOutputService : IOutputService
     {
