@@ -9,6 +9,11 @@ namespace AutofacExample.Services
         public string GetInput()
         {
             input = Console.ReadLine();
+            if (!string.IsNullOrEmpty(input))
+            {
+                input = input.Trim();
+            }
+
             return input;
         }
 
